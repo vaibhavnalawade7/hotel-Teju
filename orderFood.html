@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Swati</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <style>
+        body {
+           
+           /* background: linear-gradient(90deg, rgb(142, 180, 200), rgba(0, 212, 255, 1)); */
+           background: rgb(217, 255, 0);
+
+           height    : 100vh;
+           height    : auto;
+       }
+    </style>
+
+    <script>
+        function ordered() {
+            alert("Food Has Been Ordered");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <ul>
+            
+            <li style="float: right;"><a href="login.html">Logout</a></li>
+            <li style="float: right;"><a href="profile.html">Profile</a></li>
+            
+            <li style="float: right;"><a href="foodOrderHistroy.html">Food Order Histroy</a></li>
+            <li style="float: right;"><a href="foodMenu.html">Food Menu</a></li>
+            <li style="float: right;"><a href="index.html" class="brand">Hotel Teju</a></li>
+        </ul>
+    </header>
+    <br>
+    <br>
+    <div id="main">
+
+        <div id="test">
+            <img src="images/pizza.jpg" alt="pizza"><br>
+            <label for=""><b>Veg Pizza</b></label><br>
+            <label for=""><b>Price:</b>Rs. 299</label><br>
+            <a href="" onclick="ordered();" class="btn">Order Pizza</a>
+        </div>
+
+        <div id="test">
+            <img src="images/pizza.jpg" alt="Burgur"><br>
+            <label for=""><b>Veg Burgur</b></label><br>
+            <label for=""><b>Price:</b>Rs. 99</label><br>
+            <a href="" onclick="ordered();" class="btn">Order Burgur</a>
+        </div>
+
+        <div id="test">
+            <img src="images/pizza.jpg" alt="hot-Dogs"><br>
+            <label for=""><b>HotDogs</b></label><br>
+            <label for=""><b>Price:</b>Rs. 299</label><br>
+            <a href="" onclick="ordered();" class="btn">Order HotDogs</a>
+        </div>
+
+    </div>
+</body>
+</html>
